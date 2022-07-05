@@ -11,7 +11,11 @@ print("cotton"+"candy")
 print ("lol"+str(20))
 
 # variable in python:
-a=11
-print ("the first value of a is: --->",a)
-a= "Apple"
-print("the second value of a is: =", a)
+'''''
+numeric_value ==> snake_case_writing (recc for python)
+numedricValue ==> cameCaseWriting 
+'''''
+numeric_value=11
+print ("the first value of a is: --->",numeric_value)
+fruit_name= "Apple"
+print("the second value of a is: =", fruit_name)
