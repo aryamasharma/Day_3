@@ -15,7 +15,10 @@ print ("lol"+str(20))
 numeric_value ==> snake_case_writing (recc for python)
 numedricValue ==> cameCaseWriting 
 '''''
-numeric_value=11
-print ("the first value of a is: --->",numeric_value)
-fruit_name= "Apple"
-print("the second value of a is: =", fruit_name)
+#numeric_value=11
+#print ("the first value of a is: --->",numeric_value)
+#fruit_name= "Apple"
+#print("the second value of a is: =", fruit_name)
+
+user_provided_fruit = input("fav food")
+print("your fav fruit is: ", user_provided_fruit)
