@@ -19,6 +19,9 @@ print("the average is :" , average )
 
 #string indexing
 # 01234567
+from dataclasses import replace
+
+
 name = "language"
 print(name[5])
 print(name[3:8])
@@ -47,7 +50,7 @@ print("your full name is {} and '{}' char count is {}".format(full_name,characte
 charcount=  full_name.lower().count(character)
 print(r"your fullname is {full_name} and '{character} character count is {charcount} ")
 '''
-
+'''
 #solved problem with spaces : lstrip(), rstrip(),strip()
 spaces_problem= "        aryama        "
 stars="**********"
@@ -58,6 +61,41 @@ print(stars+spaces_problem.strip()+stars)
 
 full_name, character = input("enter your fullname and character you want to search (comma seperated)").split(",")
 charcount=  full_name.lower().count(character.strip())
-print(f"your name is {full_name} the character to count is {character} the character number is {charcount}")
+print(f"your name is {full_name} \nthe character to count is {character} \nthe character number is {charcount}")
+solved_problem = spaces_problem.replace(" ","")
+print(f"the solve of spaces problem is : {solved_problem}")
+
+replace_example = "kritika is a beautiful and she is out standing "
+print(replace_example.replace("is","was"))
+print(replace_example.replace("is","was",1))
+insdez= replace_example.find("is", 1)
+print(replace_example.find("is", insdez+1))
+
+
+# print(replace_example.replace("is","was", replace_example.find("is,10")))
+'''
+
+#center() method
+
+example2= "python"
+print(example2.center(4+6+4,"*"))
+
+#name= input("enter your name ")
+#print(name.center(5+len(name)+5,"*"))
+
+
+
+#string are imutable and assignment operator 
+example3= "any"
+#example3[1]="N" #can't do because of imutable (copy hancha)
+
+print(example3.replace("n","N"))
+print (example3)
+
+example3= example3 + "body" # is the same as example += "body"
+print(example3)
+
+
+
 
 
