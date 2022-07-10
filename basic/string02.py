@@ -100,7 +100,7 @@ example3= example3 + "body" # is the same as example += "body"
 print(example3)
 '''
 
-replace_example = "kritika is a beautiful and she is out standing "
+replace_example = "kritika is beautiful and she is out standing "
 
 insdez= replace_example.find("is", 1)
 print(replace_example.find("is", insdez+1))
